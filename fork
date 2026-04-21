@@ -1,0 +1,11 @@
+e Fork button at the top-right corner of the repository page to create 
+a copy of the repository in your GitHub account.
+:git clone <forked-repository-URL> 
+ cd <repositoryname>.
+ g:git remote add upstream <original-repository-URL> 
+ git checkout -b feature-branch 
+git add . 
+git commit -m "Description of changes" 
+git push origin feature-branch
+Compare & Pull Request
+k Create Pull Reque
